@@ -7,7 +7,7 @@ gcc, prceライブラリ, zlibライブラリ, openSSLがインストールさ�
 以下はyumの場合の例
 ```
 $ yum install gcc 
-$ yum install prce prce-devel
+$ yum install pcre pcre-devel
 $ yum install zlib zlib-devel
 $ yum install openssl openssl-devel
 ```
