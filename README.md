@@ -21,10 +21,7 @@ enabled=1
 sudo yum install nginx
 ```
 
-以上！
-
-
-### おまけ
+### nginxユーザ
 nginxを起動する際にnginxユーザがないと怒られるので追加する必要あり
 ```
 sudo useradd --shell /sbin/nologin nginx
