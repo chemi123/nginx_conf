@@ -22,7 +22,14 @@ $ wget http://nginx.org/download/nginx-1.11.7.tar.gz
 解凍後、レポジトリを移動して以下スクリプトを実行。このスクリプトを実行することでobjsフォルダができる。  
 このフォルダにビルドに必要な設定が記述されたMakefileが出来る。
 ```
-$ ./configure
+$ ./configure \
+--prefix=/usr/local/nginx-1.11.8 \
+--user=nginx \
+--group=nginx \
+--pid-path=/var/run/nginx/nginx.pid \
+--lock-path=/var/run/nginx/nginx.lock \
+--error-log-path=/var/log/nginx/error.log \
+--http-log-path=/var/log/nginx/access.log
 ```
 
 何もオプションをつけないとデフォルトの設定になる。  
