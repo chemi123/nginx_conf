@@ -74,5 +74,5 @@ Reload privilege tables now? [Y/n] Y
 wgetするだけ。
 urlをいちいち調べるのがだるいのでメモ
 ```
-wget https://ja.wordpress.org/wordpress-4.3.1-ja.tar.gz
+wget http://nginx.org/download/nginx-1.11.8.tar.gz
 ```
