@@ -8,7 +8,7 @@
 ### 1. php
 ```
 yum install http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
-yum install php --enablerepo=remi-php56
+yum install php php-mysql --enablerepo=remi-php56
 ```
 
 ### 2. php-fpm
