@@ -16,7 +16,7 @@ yum install php --enablerepo=remi-php56
 yum install php-fpm --enablerepo=remi-php56
 ```
 
-#### /etc/php-fpm.d/www.confの設定
+#### /etc/php-fpm.d/\www.confの設定
 修正前
 ```
 listen = 127.0.0.1:9000
