@@ -71,8 +71,9 @@ Reload privilege tables now? [Y/n] Y
 ```
 
 ### おまけ(wordpress)
-wgetするだけ。
+wgetして解凍するだけ。
 urlをいちいち調べるのがだるいのでメモ
 ```
-wget http://nginx.org/download/nginx-1.11.8.tar.gz
+$ wget http://nginx.org/download/nginx-1.11.8.tar.gz
+$ tar xvzf nginx-1.11.8.tar.gz
 ```
