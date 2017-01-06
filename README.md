@@ -26,23 +26,3 @@ nginxを起動する際にnginxユーザがないと怒られるので追加す�
 ```
 sudo useradd --shell /sbin/nologin nginx
 ```
-
-### /etc/php-fpm/www.confの設定
-
-ここですっごくつまづいた。。。
-
-修正前
-```
-listen = 127.0.0.1:9000 
-
-user = apache
-group = apache
-```
-
-修正後
-```
-listen = 9000
-
-user = nginx
-group = nginx
-```
